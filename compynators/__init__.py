@@ -1,4 +1,4 @@
-from compynators import ParseResult, ParseResultType
+from combinators import ParseResult, ParseResultType
 from bools import TrueType, FalseType
 from span import Span, Spanned
 from stream import Stream
