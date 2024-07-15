@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "compynators"
+version = "0.1.0"
+description = ""
+authors = ["bwburnsides <19192452+bwburnsides@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+ruff = "^0.5.2"
+pyright = "^1.1.371"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
