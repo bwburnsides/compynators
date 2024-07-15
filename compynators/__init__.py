@@ -4,6 +4,10 @@ from span import Span, Spanned
 from stream import Stream
 from union import Result, ResultType, Maybe, MaybeType
 
+import combinators, bools, span, stream, union
+
+_ = (combinators, bools, span, stream, union)
+
 _ = (
     ParseResult,
     ParseResultType,

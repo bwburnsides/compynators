@@ -5,11 +5,11 @@ from abc import ABC, abstractmethod
 import copy
 from enum import Enum
 
-from compynators.bools import TrueType, FalseType
-from compynators.stream import Stream
-from compynators.union import Maybe, MaybeType
-from compynators import span
-from compynators.span import Span
+from bools import TrueType, FalseType
+from stream import Stream
+from union import Maybe, MaybeType
+import span
+from span import Span
 
 type ParseResultType[In, Out, Err] = (
     ParseResult.Match[In, Out] | ParseResult.NoMatchType | ParseResult.Error[Err]

@@ -3,7 +3,7 @@ import typing_extensions as te
 from dataclasses import dataclass
 from enum import Enum
 
-from compynators.bools import TrueType, FalseType
+from bools import TrueType, FalseType
 
 
 type MaybeType[T] = Maybe.Some[T] | Maybe.NilType

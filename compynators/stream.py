@@ -2,8 +2,8 @@ import typing as t
 from dataclasses import dataclass
 import os
 
-from compynators.union import Maybe, MaybeType
-from compynators.span import Spanned, Span
+from union import Maybe, MaybeType
+from span import Spanned, Span
 
 
 @dataclass
